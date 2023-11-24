@@ -13,9 +13,10 @@ type Alphabet interface {
 
 var (
 	alphabetMap = map[string]Alphabet{
-		"english": NewEnglishAlphabet(),
-		"russian": NewRussianAlphabet(),
-		"numbers": NewNumberAlphabet(),
+		"english":    NewEnglishAlphabet(),
+		"russian":    NewRussianAlphabet(),
+		"numbers":    NewNumberAlphabet(),
+		"vietnamese": NewVietnameseAlphabet(),
 	}
 )
 

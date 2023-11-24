@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/suggest-go/suggest/internal/spellchecker/api"
+	"github.com/teng231/suggest/internal/spellchecker/api"
 	"log"
 
 	"github.com/spf13/cobra"
@@ -26,8 +26,8 @@ var spellcheckerCmd = &cobra.Command{
 		log.SetFlags(0)
 
 		config := api.AppConfig{
-			Port:       port,
-			ConfigPath: configPath,
+			Port:             port,
+			ConfigPath:       configPath,
 			IndexDescription: indexDescription,
 		}
 

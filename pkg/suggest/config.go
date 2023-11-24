@@ -7,8 +7,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/suggest-go/suggest/pkg/analysis"
-	"github.com/suggest-go/suggest/pkg/index"
+	"github.com/teng231/suggest/pkg/analysis"
+	"github.com/teng231/suggest/pkg/index"
 )
 
 // Driver represents storage type of an inverted index

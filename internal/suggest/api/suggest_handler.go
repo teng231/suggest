@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 	"github.com/gorilla/mux"
-	httputil "github.com/suggest-go/suggest/internal/http"
-	"github.com/suggest-go/suggest/pkg/metric"
-	"github.com/suggest-go/suggest/pkg/suggest"
+	httputil "github.com/teng231/suggest/internal/http"
+	"github.com/teng231/suggest/pkg/metric"
+	"github.com/teng231/suggest/pkg/suggest"
 	"net/http"
 )
 
@@ -18,7 +18,7 @@ const (
 	overlap = "Overlap"
 
 	defaultSimilarity = 0.5
-	defaultTopK = 5
+	defaultTopK       = 5
 )
 
 var metrics map[string]metric.Metric
@@ -41,8 +41,8 @@ type suggestHandler struct {
 // handle performs topK approximate string search
 func (h *suggestHandler) handle(w http.ResponseWriter, r *http.Request) {
 	var (
-		vars       = mux.Vars(r)
-		dict       = vars["dict"]
+		vars = mux.Vars(r)
+		dict = vars["dict"]
 	)
 
 	searchConf, err := buildSearchConfig(r)

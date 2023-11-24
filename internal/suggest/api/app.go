@@ -3,7 +3,7 @@ package api
 import (
 	"context"
 	"fmt"
-	"github.com/suggest-go/suggest/internal/http"
+	"github.com/teng231/suggest/internal/http"
 	"io/ioutil"
 	"log"
 	"os"
@@ -14,7 +14,7 @@ import (
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/suggest-go/suggest/pkg/suggest"
+	"github.com/teng231/suggest/pkg/suggest"
 )
 
 // App is our application

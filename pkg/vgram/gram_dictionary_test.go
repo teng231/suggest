@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 package vgram
@@ -6,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/suggest-go/suggest/pkg/dictionary"
+	"github.com/teng231/suggest/pkg/dictionary"
 )
 
 func TestBuildFrequencyTree(t *testing.T) {

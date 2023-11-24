@@ -3,11 +3,11 @@ package suggest
 import (
 	"fmt"
 
-	"github.com/suggest-go/suggest/pkg/dictionary"
-	"github.com/suggest-go/suggest/pkg/merger"
-	"github.com/suggest-go/suggest/pkg/store"
+	"github.com/teng231/suggest/pkg/dictionary"
+	"github.com/teng231/suggest/pkg/merger"
+	"github.com/teng231/suggest/pkg/store"
 
-	"github.com/suggest-go/suggest/pkg/index"
+	"github.com/teng231/suggest/pkg/index"
 )
 
 // Builder is the entity that is responsible for tuning and creating a NGramIndex

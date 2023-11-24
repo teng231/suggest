@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/suggest-go/suggest/pkg/store"
+	"github.com/teng231/suggest/pkg/store"
 )
 
 func TestEncodeDecode(t *testing.T) {

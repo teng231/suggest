@@ -2,8 +2,8 @@ package analysis
 
 import (
 	snowball "github.com/snowballstem/snowball/go"
-	"github.com/suggest-go/suggest/pkg/analysis/en"
-	"github.com/suggest-go/suggest/pkg/analysis/ru"
+	"github.com/teng231/suggest/pkg/analysis/en"
+	"github.com/teng231/suggest/pkg/analysis/ru"
 )
 
 type stemmerFunc = func(env *snowball.Env) bool

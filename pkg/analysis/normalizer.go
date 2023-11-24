@@ -1,7 +1,7 @@
 package analysis
 
 import (
-	"github.com/suggest-go/suggest/pkg/alphabet"
+	"github.com/teng231/suggest/pkg/alphabet"
 )
 
 type normalizeFilter struct {

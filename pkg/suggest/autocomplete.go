@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/suggest-go/suggest/pkg/analysis"
-	"github.com/suggest-go/suggest/pkg/index"
+	"github.com/teng231/suggest/pkg/analysis"
+	"github.com/teng231/suggest/pkg/index"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -12,12 +12,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/suggest-go/suggest/pkg/store"
+	"github.com/teng231/suggest/pkg/store"
 
 	"github.com/spf13/cobra"
 
-	"github.com/suggest-go/suggest/pkg/dictionary"
-	"github.com/suggest-go/suggest/pkg/suggest"
+	"github.com/teng231/suggest/pkg/dictionary"
+	"github.com/teng231/suggest/pkg/suggest"
 )
 
 var (

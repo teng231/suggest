@@ -4,8 +4,8 @@ import (
 	"errors"
 	"math"
 
-	"github.com/suggest-go/suggest/pkg/index"
-	"github.com/suggest-go/suggest/pkg/merger"
+	"github.com/teng231/suggest/pkg/index"
+	"github.com/teng231/suggest/pkg/merger"
 )
 
 // Candidate is an item of Collector

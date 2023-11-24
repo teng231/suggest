@@ -10,10 +10,10 @@ import (
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/suggest-go/suggest/internal/http"
-	"github.com/suggest-go/suggest/internal/spellchecker/dep"
-	"github.com/suggest-go/suggest/pkg/lm"
-	"github.com/suggest-go/suggest/pkg/suggest"
+	"github.com/teng231/suggest/internal/http"
+	"github.com/teng231/suggest/internal/spellchecker/dep"
+	"github.com/teng231/suggest/pkg/lm"
+	"github.com/teng231/suggest/pkg/suggest"
 )
 
 // App is our application

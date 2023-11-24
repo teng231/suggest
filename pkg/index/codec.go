@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/suggest-go/suggest/pkg/compression"
-	"github.com/suggest-go/suggest/pkg/store"
+	"github.com/teng231/suggest/pkg/compression"
+	"github.com/teng231/suggest/pkg/store"
 )
 
 const skippingGapSize = 64

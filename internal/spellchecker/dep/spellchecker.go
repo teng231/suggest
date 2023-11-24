@@ -2,11 +2,11 @@ package dep
 
 import (
 	"fmt"
-	"github.com/suggest-go/suggest/pkg/dictionary"
-	"github.com/suggest-go/suggest/pkg/lm"
-	"github.com/suggest-go/suggest/pkg/spellchecker"
-	"github.com/suggest-go/suggest/pkg/store"
-	"github.com/suggest-go/suggest/pkg/suggest"
+	"github.com/teng231/suggest/pkg/dictionary"
+	"github.com/teng231/suggest/pkg/lm"
+	"github.com/teng231/suggest/pkg/spellchecker"
+	"github.com/teng231/suggest/pkg/store"
+	"github.com/teng231/suggest/pkg/suggest"
 )
 
 // BuildSpellChecker builds spellchecker for the provided config and indexDescription

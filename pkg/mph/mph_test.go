@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/suggest-go/suggest/pkg/dictionary"
+	"github.com/teng231/suggest/pkg/dictionary"
 )
 
 func TestFlow(t *testing.T) {

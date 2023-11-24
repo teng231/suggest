@@ -3,10 +3,10 @@ package suggest
 import (
 	"fmt"
 
-	"github.com/suggest-go/suggest/pkg/analysis"
-	"github.com/suggest-go/suggest/pkg/dictionary"
-	"github.com/suggest-go/suggest/pkg/index"
-	"github.com/suggest-go/suggest/pkg/store"
+	"github.com/teng231/suggest/pkg/analysis"
+	"github.com/teng231/suggest/pkg/dictionary"
+	"github.com/teng231/suggest/pkg/index"
+	"github.com/teng231/suggest/pkg/store"
 )
 
 // Index builds a search index by using the given config and the dictionary

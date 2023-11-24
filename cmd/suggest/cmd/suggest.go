@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/suggest-go/suggest/internal/suggest/api"
+	"github.com/teng231/suggest/internal/suggest/api"
 	"log"
 
 	"github.com/spf13/cobra"

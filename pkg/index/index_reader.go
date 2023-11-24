@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/suggest-go/suggest/pkg/store"
+	"github.com/teng231/suggest/pkg/store"
 )
 
 // Reader is an entity, providing access to a search index

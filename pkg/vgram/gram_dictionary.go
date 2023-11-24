@@ -1,10 +1,11 @@
+//go:build ignore
 // +build ignore
 
 package vgram
 
 import (
-	"github.com/suggest-go/suggest/pkg/dictionary"
-	"github.com/suggest-go/suggest/pkg/index"
+	"github.com/teng231/suggest/pkg/dictionary"
+	"github.com/teng231/suggest/pkg/index"
 )
 
 type VGramDictionaryBuilder struct {

@@ -5,8 +5,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/suggest-go/suggest/pkg/store"
-	"github.com/suggest-go/suggest/pkg/utils"
+	"github.com/teng231/suggest/pkg/store"
+	"github.com/teng231/suggest/pkg/utils"
 )
 
 type packedArray struct {

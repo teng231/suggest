@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	httputil "github.com/suggest-go/suggest/internal/http"
-	"github.com/suggest-go/suggest/pkg/spellchecker"
+	httputil "github.com/teng231/suggest/internal/http"
+	"github.com/teng231/suggest/pkg/spellchecker"
 
 	"github.com/gorilla/mux"
 )

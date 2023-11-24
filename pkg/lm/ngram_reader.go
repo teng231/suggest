@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/suggest-go/suggest/pkg/store"
+	"github.com/teng231/suggest/pkg/store"
 )
 
 // NGramReader is responsible for creating NGramModel from the files

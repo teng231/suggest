@@ -6,11 +6,11 @@ package spellchecker
 import (
 	"sort"
 
-	"github.com/suggest-go/suggest/pkg/analysis"
-	"github.com/suggest-go/suggest/pkg/dictionary"
-	"github.com/suggest-go/suggest/pkg/lm"
-	"github.com/suggest-go/suggest/pkg/metric"
-	"github.com/suggest-go/suggest/pkg/suggest"
+	"github.com/teng231/suggest/pkg/analysis"
+	"github.com/teng231/suggest/pkg/dictionary"
+	"github.com/teng231/suggest/pkg/lm"
+	"github.com/teng231/suggest/pkg/metric"
+	"github.com/teng231/suggest/pkg/suggest"
 )
 
 // SpellChecker describe me!
